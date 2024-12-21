@@ -92,6 +92,52 @@ nav{
 
 
 
+/* Header navbar   */
+
+
+.main-layout{
+    display: flex;
+}
+
+.main-layout .content-wrapper{
+    margin-left: 16rem;
+    margin-top: 1.2rem;
+}
+
+.main-layout .content-wrapper{
+    padding: 0 1rem;
+    overflow-x: hidden;
+    width: 100%;
+
+}
+
+
+.content-wrapper .category-list{
+    display: flex;
+    gap: 1rem;
+    padding: 0.6rem 0 0.7rem;
+    overflow-x: auto;
+    scrollbar-width: none;
+}
+
+
+.category-list .button-category{
+    border: none;
+    outline: none;
+    cursor: pointer;
+    white-space: nowrap;
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 0.4rem 0.5rem;
+    background-color: rgb(210, 207, 207);
+    box-shadow: 0 0 2px #000;
+
+    border-radius: 0.8rem;
+}
+
+
+
+
 /* #######  side bar stying  ########### */
 
 .sidebar{
@@ -517,6 +563,12 @@ nav{
     .vid-description{
         padding-left: 0;
     }
+
+
+      .main-layout .content-wrapper{
+        margin-left: 1rem;
+    }
+
 
     
 
